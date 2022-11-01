@@ -3,3 +3,9 @@ body{
     text-align: left;
     font-family: Roboto, avenir, Arial, Helvetica, sans-serif;
 }
+
+.header--main{
+    font-weight: normal;
+    font-size: 60px;
+    color:black;
+}
