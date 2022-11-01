@@ -1,11 +1,16 @@
 body{
     background-color: white;
     text-align: left;
-    font-family: Roboto, avenir, Arial, Helvetica, sans-serif;
+    font-family: Avenir, Roboto, Arial, Helvetica, sans-serif;
 }
 
 .header--main{
-    font-weight: normal;
+    font-weight: bold;
     font-size: 60px;
+    color:black;
+}
+
+.link--caption{
+    font-size: 16px;
     color:black;
 }
