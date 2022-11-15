@@ -7,9 +7,6 @@ body{
 .main{
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
-    font-weight: bold;
-    font-size: 36px;
-    color:black;
 }
 
 /* The side navigation menu */
@@ -19,7 +16,7 @@ body{
     width: 200px;
     background-color: white;
     position: fixed;
-    height: 100%;
+    height: 160%;
     overflow: auto;
   }
 
