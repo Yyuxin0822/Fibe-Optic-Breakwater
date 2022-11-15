@@ -6,19 +6,24 @@ body{
 
 .header--main{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 36px;
     color:black;
 }
 
 /* Headings */
 .h1{}
 
-.h2{}
+.h2{
+    font-weight: bold;
+    font-size: 18px;
+}
 
-.p-info{}
+.p--info{
+    font-size: 12px;
+}
 
 .p--caption{
-    font-size: 32px;
+    font-size: 12px;
     color:black;
 }
 
