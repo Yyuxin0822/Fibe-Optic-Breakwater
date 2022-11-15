@@ -10,7 +10,15 @@ body{
     color:black;
 }
 
-.link--caption{
+/* Headings */
+.h1{}
+
+.h2{}
+
+.p-info{}
+
+.p--caption{
     font-size: 32px;
     color:black;
 }
+
