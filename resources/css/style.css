@@ -12,8 +12,9 @@ body{
 /* The side navigation menu */
 .sidebar {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     margin: 0;
+    display: block;
     padding: 0;
     width: 160px;
     background-color: white;
