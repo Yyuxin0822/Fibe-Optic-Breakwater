@@ -93,6 +93,10 @@ a:hover, a:active {
     color:black;
 }
 
+.hl{
+    color:#e60000;
+}
+
 div.a {
     width: 810px;
   }
