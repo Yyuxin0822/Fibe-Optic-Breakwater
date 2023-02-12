@@ -16,8 +16,9 @@ body{
     width: 160px;
     background-color: white;
     position: fixed;
+    text-align: left;
     height: 160%;
-    overflow: auto;
+    overflow: hidden;
   }
 
 /* Headings */
