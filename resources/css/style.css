@@ -42,7 +42,13 @@ a:hover, a:active {
     font-size: 14px;
 }
 
+.h3{    
+    line-height: 150%;
+    font-weight:700;
+    font-size: 14px;
+}
 .p--info{
+    line-height: 150%;
     font-size: 12px;
 }
 
