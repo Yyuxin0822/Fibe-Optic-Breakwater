@@ -24,6 +24,7 @@ a:hover, a:active {
     display: block;
     padding-right: 50px;
     padding-left: 0px;
+    padding-top: 0%;
     width: 160px;
     background-color: white;
     position: fixed;
@@ -47,7 +48,7 @@ a:hover, a:active {
     overflow: hidden;
   }
   
- .collapsible:hover {
+  .collapsible:, .collapsible:hover {
     font-weight: bolder;
   }
 
@@ -61,9 +62,12 @@ a:hover, a:active {
 
 /* Headings */
 .h1{    
-    font-weight:500;
+
     font-size: 24px;}
-    
+.h2{    
+    font-weight:500;
+    font-size: 18px;}   
+
 .p--info{
     line-height: 150%;
     font-size: 14px;
