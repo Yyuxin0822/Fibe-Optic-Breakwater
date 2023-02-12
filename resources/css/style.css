@@ -67,12 +67,12 @@ a:hover, a:active {
 .h1{    
     font-family: "Lucida Console", "Courier New", monospace;
     padding-top: 0;
-    font-size: 18px;}
+    font-size: 24px;}
 .h2{    
 
     font-weight:500;
     font-size: 24px;
-    line-height: 250%;}   
+    line-height: 300%;}   
 
 .p--info{
     line-height: 150%;
@@ -92,3 +92,7 @@ a:hover, a:active {
     font-size: 12px;
     color:black;
 }
+
+div.a {
+    width: 810px;
+  }
