@@ -10,12 +10,21 @@ body{
 }
 
 /* The side navigation menu */
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+    font-weight: bolder;
+}
+
 .sidebar {
-    font-weight: bold;
-    font-size: 12px;
+    color:black;
     margin: 0;
     display: block;
-    padding: 0;
+    padding-right: 50px;
+    padding-left: 10px;
     width: 160px;
     background-color: white;
     position: fixed;
@@ -26,12 +35,11 @@ body{
 
 /* Headings */
 .h1{    
-    font-weight: bold;
-    font-size: 18px;}
+    font-weight:500;
+    font-size: 24px;}
 
 .h2{
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .p--info{
@@ -39,7 +47,7 @@ body{
 }
 
 .p--caption{
-    font-size: 12px;
+    font-size: 10px;
     color:black;
 }
 
