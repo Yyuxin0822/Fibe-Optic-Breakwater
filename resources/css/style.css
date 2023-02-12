@@ -57,3 +57,9 @@ a:hover, a:active {
     color:black;
 }
 
+.p--italic{
+    line-height: 150%;
+    font-size: 14px;
+    font-style: italic;
+}
+
