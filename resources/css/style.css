@@ -1,7 +1,7 @@
 body{
     background-color: white;
     text-align: left;
-    font-family: Avenir, Roboto, Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
 .main{
@@ -48,7 +48,7 @@ a:hover, a:active {
     overflow: hidden;
   }
   
-  .collapsible:, .collapsible:hover {
+  .collapsible.active, .collapsible:hover {
     font-weight: bolder;
   }
 
@@ -62,11 +62,14 @@ a:hover, a:active {
 
 /* Headings */
 .h1{    
-
-    font-size: 24px;}
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 0;
+    font-size: 18px;}
 .h2{    
+
     font-weight:500;
-    font-size: 18px;}   
+    font-size: 24px;
+    line-height: 250%;}   
 
 .p--info{
     line-height: 150%;
@@ -81,6 +84,8 @@ a:hover, a:active {
 }
 
 .p--caption{
+    text-indent: 120px;
+
     line-height: 150%;
     font-size: 12px;
     color:black;
