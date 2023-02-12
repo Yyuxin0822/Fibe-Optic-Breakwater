@@ -11,21 +11,49 @@
 <!-- Sidebar -->
 <nav class="sidebar">
     <a class=h1>YUXIN YANG</a>
-
-    <p><a href="project1.html" class=p--info>Landscape and Urban Design</a></p>
-    <p><a href="#news" class=p--info>Technology</a></p>
-<!--         <div>
-            <p></p><a href="project1.html" class=h3>IoT: Fiber Optic Breakwaters</a></p>
-            <p></p><a href="project1.html" class=h3>Adaptive Lattice Stool</a></p>
-            <p></p><a href="project1.html" class=h3>CityScope Module: Housing-to-Office </a></p>
-        </div> -->
+    <br>
+    <br>
+    <button type="button" class="collapsible">Landscape and Urban Design</button>
+        <div class="content">
+            <ul><a href="project1.html" class=p--info><i>From Airport to HST Station: Bio Intermodality</i></a></ul>
+            <ul><a href="project1.html" class=p--info><i>Crosswind Data Center</i></a></ul>
+            <ul><a href="project1.html" class=p--info><i>Migration is Beautiful</i></a></ul>
+            <ul><a href="project1.html" class=p--info><i>Dredge Engine</i></a></ul>
+        </div>
+    <br>
+    <button type="button" class="collapsible">Technology</button>
+        <div class="content">
+            <ul><a href="project1.html" class=p--info>IoT: Fiber Optic Breakwaters</a></ul>
+            <ul><a href="project1.html" class=p--info>Adaptive Lattice Stool</a></ul>
+            <ul><a href="project1.html" class=p--info>CityScope Module: Housing-to-Office </a></ul>
+        </div>
     <p><a href="whim.html" class=p--info>Whim</a></p>
     <p><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9fe94b1a-4977-328f-8e4d-f6c2b8c8d8b4" class=p--info>CV</a></p>
     <p><a href="index.html" class=p--info>About</a></p>
+
+
 </nav>  
-  
-  <!-- Page Content -->
-  <div style="margin-left:240px">
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+      
+
+
+<!-- Page Content -->
+<div style="margin-left:240px">
   
     <img src="./resources/images/about/index.jpg" alt="Profile" width=240px>
   
