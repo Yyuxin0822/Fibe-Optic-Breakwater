@@ -74,16 +74,16 @@ a:hover, a:active {
     font-size: 24px;
     line-height: 300%;}   
 
+ .h--img{
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-indent: 30px;
+ }   
+
 .p--info{
     line-height: 150%;
     font-size: 14px;
-}
-
-.p--subinfo{
-    font-style: italic;
-    line-height: 150%;
-    font-size: 14px;
-    color: gray;
 }
 
 .p--caption{
@@ -97,5 +97,5 @@ a:hover, a:active {
 }
 
 div.a {
-    width: 810px;
+    width: 960px;
   }
