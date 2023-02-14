@@ -12,66 +12,96 @@
 <body>
 <!-- Sidebar -->
 <nav class="sidebar">
-    <a class=h1>YUXIN YANG</a>
-    <br>
-    <br>
-    <button type="button" class="collapsible">Landscape and Urban Design</button>
-        <div class="content">
-            <ul><a href="project1.html" class=p--info><i>From Airport to HST Station: Bio Intermodality</i></a></ul>
-            <ul><a href="project2.html" class=p--info><i>Crosswind Data Center</i></a></ul>
-            <ul><a href="project3.html" class=p--info><i>Migration is Beautiful</i></a></ul>
-            <ul><a href="project4.html" class=p--info><i>Dredge Engine</i></a></ul>
-        </div>
-    <br>
-    <button type="button" class="collapsible">Technology</button>
-        <div class="content">
-            <ul><a href="index.html" class=p--info><i>IoT: Fiber Optic Breakwaters</i></a></ul>
-            <ul><a href="tech2.html" class=p--info><i>CityScope Module: Kendall Life-Work Crescendo</i></a></ul>
-            <ul><a href="tech3.html" class=p--info><i>Remote Sensing Sanyang Wetland</i></a></ul>
-            <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
-            <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
-
-        </div>
-    <p><a href="whim.html" class=p--info>Whim</a></p>
-    <p><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9fe94b1a-4977-328f-8e4d-f6c2b8c8d8b4" class=p--info>CV</a></p>
-    <p><a href="about.html" class=p--info>About</a></p>
-</nav>  
+    <p class=h1><strong>Y</strong>UXIN <strong>Y</strong>ANG</p>
+   
+       <button type="button" class="collapsible">Landscape and Urban Design</button>
+           <div class="content">
+               <ul><a href="project1.html" class=p--info>From Airport to HST Station: Bio Intermodality</a></ul>
+               <ul><a href="project2.html" class=p--info>Crosswind Data Center</a></ul>
+               <ul><a href="project3.html" class=p--info>Migration is Beautiful: Biophillic Boulevard</a></ul>
+               <ul><a href="project4.html" class=p--info>Dredge Engine</a></ul>
+           </div>
+       <br>
+       <button type="button" class="collapsible">Technology</button>
+           <div class="content">
+               <ul><a href="tech1.html" class=p--info>IoT Shoreline: Wave, Weave</a></ul>
+               <ul><a href="tech2.html" class=p--info>CityScope Module: Kendall Life-Work Crescendo</a></ul>
+               <ul><a href="tech3.html" class=p--info>Remote Sensing Sanyang Wetland</a></ul>
+               <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
+               <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
+   
+           </div>
+       <p><a href="whim.html" class=p--info>Whim</a></p>
+       <p><a href="cv.html" class=p--info>CV</a></p>
+       <p><a href="index.html" class=p--info>About</a></p>
+   
+   
+       <footer>
+           <p>Published on GitHub Page <br>© Yuxin Yang, Feb 2023</p>
+       </footer>
+   </nav>  
 <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
     
     for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
+        coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
-          content.style.display = "none";
+            content.style.display = "none";
         } else {
-          content.style.display = "block";
+            content.style.display = "block";
         }
-      });
+        });
     }
 </script>
   
 <!-- Page Content -->
-<div style="margin-left:240px">
-<!--     <h2>Fiber-Optic Breakwater</h2>
-    <p class=p--caption>Indivual Work, 02-05/2022, Academy<br>
-        Instructor	Dr. Joseph A. Paradiso, joep@media.mit.edu<br>
-        Institution	MIT Media Lab, Responsive Environments Group</p>
-    <p class=p--info><strong>Introduction</strong></p>
-    <p class=p--info>Geotextile tubes as submerged breakwaters are the shoreline climate-adaptive infrastructure. 
-        The project proposed fiber sensing, a weavable sensor for geotextile tubes, to capture environmental changes, soil, and waves, specifically in this project, enabling an IoT shoreline. The research includes fiber sensor prototype development and two set experiments -  
-        deformation experiments on fiber sensors of varying diameters and treatment 
-        and water tank waves experiments on breakwater mockups.</p> -->
+<div style="margin-left:280px" class="a">
+
+    <p class=h2>Adaptive Rocking Lattice Stool</p>
+    <br>
+    <p class=p--caption> <strong>Info</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuxin YANG, Lianliu GUO, Qing FENG, 
+        09/2021 - 12/2021, Academy<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My contributions include
+        design, grasshopper simulation and mockup
+        with the team<br>
+        <strong>Instructor</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sawako Kaijima, skaijima@gsd.harvard.edu<br>
+       <strong>Institution</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Harvard GSD<br>
+    </p>
+
+    <br>
+    <p class=p--info>This is an ergonomics lattice stool via topological optimization on Grasshopper
+        (Millipede) for dynamic loading
+        with ENVI, eCoginition, and Grasshopper.</p>
+        <br>
+    <p class=p--info><strong>WHAT makes a stool ADAPTIVE?</strong><br>
+        To conform to ergonomics, the supports are designed using the structural optimization tool Millipede based on various postures.<br>
+        And a rocking foundation is designed to accommodate forward and backward leaning.</p>
+    <p class=p--info><strong>WHAT makes a stool STABLE?</strong><br>
+        Structural optimizations are performed at various stages of the project to ensure the stiffness of the stool.</p>
+    <p class=p--info><strong>WHAT makes a seating INTERFACE-FRIENDLY?</strong><br>
+        We created a lattice seating surface to make the stool visually light, porous, and fuzzy.</p>
+    <br>
     <!--Image Section-->
     <div>
-        <img src="./resources/images/1_Page_20.jpg" height=540 alt=""><br>
-        <img src="./resources/images/1_Page_21.jpg" height=540 alt=""><br>
-        <img src="./resources/images/1_Page_22.jpg" height=540 alt=""><br>
-        <video autoplay loop>
-            <source src ="" type="video/mp4">
-        </video>
+
+        <img src="./resources/images/1_Page_20.jpg" width="960" alt=""><br><br><br><br><br>
+        <img src="./resources/images/1_Page_21.jpg" width="960" alt=""><br><br><br><br><br>
+        <img src="./resources/images/1_Page_22.jpg" width="960" alt=""><br><br><br><br><br>
+        
+        <video width="960" autoplay loop>
+            <source src ="./resources/images/Rocking Lattice Stool.mp4" type="video/mp4">
+        </video><br>
+        <br>
+        <br><br><br>
+        <div>       
+            <p class=p--info>Inquire via email: <a href="mailto:yuxiny0822@gmail.com">yuxiny0822@gmail.com</a><br>
+            Connect via LinkedIn: <a href="https://www.linkedin.com/in/yuxin-yang-78a671191/?originalSubdomain=cn">Here</a>
+            <footer>© Yuxin Yang, Feb 2023</footer> </p>
+        </div>
+
     </div>
 </div>
 
