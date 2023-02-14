@@ -12,57 +12,78 @@
 <body>
 <!-- Sidebar -->
 <nav class="sidebar">
-    <a class=h1>YUXIN YANG</a>
-    <br>
-    <br>
-    <button type="button" class="collapsible">Landscape and Urban Design</button>
-        <div class="content">
-            <ul><a href="project1.html" class=p--info><i>From Airport to HST Station: Bio Intermodality</i></a></ul>
-            <ul><a href="project2.html" class=p--info><i>Crosswind Data Center</i></a></ul>
-            <ul><a href="project3.html" class=p--info><i>Migration is Beautiful</i></a></ul>
-            <ul><a href="project4.html" class=p--info><i>Dredge Engine</i></a></ul>
-        </div>
-    <br>
-    <button type="button" class="collapsible">Technology</button>
-        <div class="content">
-            <ul><a href="index.html" class=p--info><i>IoT: Fiber Optic Breakwaters</i></a></ul>
-            <ul><a href="tech2.html" class=p--info><i>CityScope Module: Kendall Life-Work Crescendo</i></a></ul>
-            <ul><a href="tech3.html" class=p--info><i>Remote Sensing Sanyang Wetland</i></a></ul>
-            <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
-            <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
-        </div>
-    <p><a href="whim.html" class=p--info>Whim</a></p>
-    <p><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9fe94b1a-4977-328f-8e4d-f6c2b8c8d8b4" class=p--info>CV</a></p>
-    <p><a href="about.html" class=p--info>About</a></p>
-</nav>  
+    <p class=h1><strong>Y</strong>UXIN <strong>Y</strong>ANG</p>
+   
+       <button type="button" class="collapsible">Landscape and Urban Design</button>
+           <div class="content">
+               <ul><a href="project1.html" class=p--info>From Airport to HST Station: Bio Intermodality</a></ul>
+               <ul><a href="project2.html" class=p--info>Crosswind Data Center</a></ul>
+               <ul><a href="project3.html" class=p--info>Migration is Beautiful: Biophillic Boulevard</a></ul>
+               <ul><a href="project4.html" class=p--info>Dredge Engine</a></ul>
+           </div>
+       <br>
+       <button type="button" class="collapsible">Technology</button>
+           <div class="content">
+               <ul><a href="tech1.html" class=p--info>IoT Shoreline: Wave, Weave</a></ul>
+               <ul><a href="tech2.html" class=p--info>CityScope Module: Kendall Life-Work Crescendo</a></ul>
+               <ul><a href="tech3.html" class=p--info>Remote Sensing Sanyang Wetland</a></ul>
+               <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
+               <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
+   
+           </div>
+       <p><a href="whim.html" class=p--info>Whim</a></p>
+       <p><a href="cv.html" class=p--info>CV</a></p>
+       <p><a href="index.html" class=p--info>About</a></p>
+   
+   
+       <footer>
+           <p>Published on GitHub Page <br>© Yuxin Yang, Feb 2023</p>
+       </footer>
+   </nav>  
 <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
     
     for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
+        coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
-          content.style.display = "none";
+            content.style.display = "none";
         } else {
-          content.style.display = "block";
+            content.style.display = "block";
         }
-      });
+        });
     }
 </script>
   
 <!-- Page Content -->
-<div style="margin-left:240px">
-<!--     <h2>Fiber-Optic Breakwater</h2>
-    <p class=p--caption>Indivual Work, 02-05/2022, Academy<br>
-        Instructor	Dr. Joseph A. Paradiso, joep@media.mit.edu<br>
-        Institution	MIT Media Lab, Responsive Environments Group</p>
-    <p class=p--info><strong>Introduction</strong></p>
-    <p class=p--info>Geotextile tubes as submerged breakwaters are the shoreline climate-adaptive infrastructure. 
-        The project proposed fiber sensing, a weavable sensor for geotextile tubes, to capture environmental changes, soil, and waves, specifically in this project, enabling an IoT shoreline. The research includes fiber sensor prototype development and two set experiments -  
-        deformation experiments on fiber sensors of varying diameters and treatment 
-        and water tank waves experiments on breakwater mockups.</p> -->
+<div style="margin-left:280px" class="a">
+
+    <p class=h2>Remote Sensing(RS) Sanyang Wetland</p>
+    <br>
+    <p class=p--caption> <strong>Info</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuxin Yang, Xi Cao, Qizheng Xie, Shifeng Zheng, 09/2017-11/2019, Academy<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My contributions include roadmap, RS image pre-processing,  feature classification algorithms, and spatial density definition refinement
+        with the team<br>
+        <strong>Instructor</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zhe Li, lizheseu@seu.edu.cn<br>
+       <strong>Institution</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Southeast University, Nanjing, China<br>
+       <span class="hl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;National Fund Recipient of China’s Student Research Training Program (SRTP); Patented</span>
+    </p>
+
+    <br>
+    <p class=p--info>This is a landscape element extraction and spatial density visualization flow
+        with ENVI, eCoginition, and Grasshopper.</p>
+        <br>
+    <p class=p--info><i>Spatial Density </i>is a concept that measures the level that landscape elements (terrain, vegetation, architecture etc.) dominates the absolute space, which reflects the livability of the environment. The research is based on granular element patches extracted from Remote Sensing images. With the refined spatial density index and R analysis correlation with vegetation index, NDVI, we propose a workflow of rapid visualization of environmental spatial density. Datasets for various environments, as wetland, mountain, plain, would yield different models of this rapid visualization. 
+        This research takes Sanyang wetland environment as an example. The project explores:</p>
+    <p class=p--info>What are the <strong>REMOTE SENSING IMAGE POTENTIALS</strong> in unfolding the invisibility of the environment?
+       <br> How to define <strong>PERFORMANCE INDEX</strong> of a built environment?
+       <br>What is a potential <strong>visualization WORKFLOW</strong> for a remote sensing image?</p>
+    <p class=p--info>The landscape of Sanyang wetland features plain water network of rive and islands. 
+        The buildings are crowded and disorganized, with the height of 2-3 stories. The vegetation is dominated by cash crops. 
+        Orange 'ouguan' dominates, with a coverage of about 70%. Other cash crops include rape, cabbage, cabbage, etc., and some wasteland. There are often banyan, sequoia, camphor, weeping willow, cedar, sorrel, etc. around the building.
+    </p>
+    <br>
     <!--Image Section-->
     <div>
         <img src="./resources/images/1_Page_14.jpg" height=540 alt=""><br>
